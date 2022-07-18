@@ -1,0 +1,52 @@
+
+LES COLLECTIONS
+
+Entreprise
+-------
+- Entreprise
+- Sigle
+- Adresse
+- NumTel
+- Email
+
+
+Client
+------
+- Names
+- NumTel
+- Adresse
+- Email
+- Date naissance
+
+
+Service
+------
+- Service
+
+
+Offre
+-----
+# Id Service
+# id Entreprise
+- Offre:{
+      "destination":"Goma",
+      "provenance":"Kin",
+      "prix":250
+    }
+
+
+Reservation
+------
+- Destination
+- Provenance
+- Prix 
+- Type/marque Car
+- Photo vehicul
+- Nbre place
+# Id Offre
+# Id Client
+- Nbre salon
+- Nbre Cambre
+- Nbre salle bain
+- Nbre cuisine
+- Photo Appartement

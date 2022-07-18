@@ -1,0 +1,60 @@
+
+
+### Client
+
+GET http://localhost:4000/api/client
+
+### New
+POST http://localhost:4000/api/client/new/
+Content-Type: application/json
+{
+    "nom": "Matondo",
+    "prenom": "luri",
+    "postnom": "ki",
+    "numTel": "5443",
+    "dateNaiss": "1970-01-01T03:21:41.999Z",
+    "sexe": "masculin",
+    "password": "loi"
+}
+
+
+
+###
+
+
+
+GET http://localhost:4000/api/entreprise
+
+###
+
+
+
+
+
+
+###
+GET http://localhost:4000/api/offre
+
+
+
+###
+GET http://localhost:4000/api/reservation
+
+
+
+###
+GET http://localhost:4000/api/service
+
+###
+
+post http://localhost:4000/api/service/new
+Content-length: application/json
+
+{
+    "service":"Vente"
+}
+
+
+###
+
+
